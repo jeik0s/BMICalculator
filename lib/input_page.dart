@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class InputPage extends StatefulWidget {
@@ -12,18 +13,54 @@ class _InputPageState extends State<InputPage> {
       appBar: AppBar(
         title: Text('BMI CALCULATOR'),
       ),
-      body: Center(
-        child: Text('Body Text'),
+      body: Column(
+        children: <Widget>[
+          Expanded(
+            child: Row(
+              children: <Widget>[
+                Expanded(
+                  child: ReusableCard(cardColor: Color(0xFF1D1E33)),
+                ),
+                Expanded(
+                  child: ReusableCard(cardColor: Color(0xFF1D1E33)),
+                ),
+              ],
+            ),
+          ),
+          Expanded(
+            child: ReusableCard(cardColor: Color(0xFF1D1E33)),
+          ),
+          Expanded(
+            child: Row(
+              children: <Widget>[
+                Expanded(
+                  child: ReusableCard(cardColor: Color(0xFF1D1E33)),
+                ),
+                Expanded(
+                  child: ReusableCard(cardColor: Color(0xFF1D1E33)),
+                ),
+              ],
+            ),
+          ),
+        ],
       ),
-      floatingActionButton: Theme(
-        data: ThemeData(
-          accentColor: Colors.lightGreenAccent
-        ),
-        child: FloatingActionButton(
-          onPressed: (){},
-          child: Icon(Icons.add),
-        ),
+    );
+  }
+}
+
+class ReusableCard extends StatelessWidget {
+  ReusableCard({required this.cardColor});
+
+  final Color cardColor;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(10.0),
+        color: cardColor,
       ),
+      margin: EdgeInsets.all(15.0),
     );
   }
 }
