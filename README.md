@@ -14,3 +14,5 @@ Udemy lesson 12 - calculate your BMI
 <h6>lesson 4 Const vs Final</h6>
 - Const - set when code ins compiling (i.e wont work with Date.now())
 <br /> - Final - can be set after compiling
+<h6>lesson 5 Own widget continued</h6>
+-
