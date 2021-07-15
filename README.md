@@ -28,3 +28,7 @@ Udemy lesson 12 - calculate your BMI
 <br />- Final Function calculation =  (int a, int b, Function f) { return f(a,b) }
 <h6>lesson 9 Sliders</h6>
 - https://api.flutter.dev/flutter/material/Slider-class.html
+<h6>lesson 10 Customising Widgets with themes</h6>
+https://api.flutter.dev/flutter/material/ThemeData-class.html
+<br />- SliderTheme(data: SliderTheme.of(context).copyWith( ... our changes ),
+<br />- that way we dont have to recreate whole theme
