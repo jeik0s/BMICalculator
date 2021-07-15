@@ -22,3 +22,7 @@ Udemy lesson 12 - calculate your BMI
 - int age = 12;
 <br />- bool canByAlcohol = age > 21 ? true : false;
 <br />- age == 13 ? print('yes you guessed it!') : print('no age is equal 12');
+<h6>lesson 8 Passing function as variable</h6>
+- int add(int a, int b){ return a+b };
+<br />- int calculation(int a, int b, Function f){ return f(a,b) }
+<br />- Final Function calculation =  (int a, int b, Function f) { return f(a,b) }
