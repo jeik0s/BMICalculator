@@ -16,3 +16,5 @@ Udemy lesson 12 - calculate your BMI
 <br /> - Final - can be set after compiling
 <h6>lesson 5 Own widget continued</h6>
 -
+<h6>lesson 6 Enums</h6>
+-
