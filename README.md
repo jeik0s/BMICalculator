@@ -26,3 +26,5 @@ Udemy lesson 12 - calculate your BMI
 - int add(int a, int b){ return a+b };
 <br />- int calculation(int a, int b, Function f){ return f(a,b) }
 <br />- Final Function calculation =  (int a, int b, Function f) { return f(a,b) }
+<h6>lesson 9 Sliders</h6>
+- https://api.flutter.dev/flutter/material/Slider-class.html
