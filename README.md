@@ -17,4 +17,8 @@ Udemy lesson 12 - calculate your BMI
 <h6>lesson 5 Own widget continued</h6>
 -
 <h6>lesson 6 Enums</h6>
--
+-  Enum Shirt { XL, L, M }
+<h6>lesson 7 Ternary Operator</h6>
+- int age = 12;
+<br />- bool canByAlcohol = age > 21 ? true : false;
+<br />- age == 13 ? print('yes you guessed it!') : print('no age is equal 12');
