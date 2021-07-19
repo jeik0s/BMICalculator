@@ -32,3 +32,6 @@ Udemy lesson 12 - calculate your BMI
 https://api.flutter.dev/flutter/material/ThemeData-class.html
 <br />- SliderTheme(data: SliderTheme.of(context).copyWith( ... our changes ),
 <br />- that way we dont have to recreate whole theme
+<h6>lesson 11 Building widget from scratch</h6>
+<img src="readme/lesson11.png"> <br />
+- remember that u can use command + left mouse button over the widget to see how it is constructed
