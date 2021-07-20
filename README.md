@@ -35,3 +35,6 @@ https://api.flutter.dev/flutter/material/ThemeData-class.html
 <h6>lesson 11 Building widget from scratch</h6>
 <img src="readme/lesson11.png"> <br />
 - remember that u can use command + left mouse button over the widget to see how it is constructed
+<h6>lesson 12 Routes and navigates</h6>
+- https://github.com/jeik0s/flutter-navigator-example <br />
+- https://flutter.dev/docs/cookbook/navigation/navigation-basics <br />
