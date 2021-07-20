@@ -15,3 +15,28 @@ const kkkNumberWithTextStyle = TextStyle(
     fontSize: 50.0,
     fontWeight: FontWeight.w900
 );
+
+const kkkLargeButtonTextStyle = TextStyle(
+  fontSize: 25.0,
+  fontWeight: FontWeight.bold,
+);
+
+const kkkTitleTextStyle = TextStyle(
+  fontSize: 50.0,
+  fontWeight: FontWeight.bold
+);
+
+const kkkResultTextStyle = TextStyle(
+  color: Color(0xFF24D876),
+  fontSize: 22.0,
+  fontWeight: FontWeight.bold,
+);
+
+const kkkBMITextStyle = TextStyle(
+  fontSize: 100.0,
+  fontWeight: FontWeight.bold,
+);
+
+const kkkBodyTextStyle = TextStyle(
+  fontSize: 22.0,
+);
