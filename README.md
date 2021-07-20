@@ -40,3 +40,5 @@ https://api.flutter.dev/flutter/material/ThemeData-class.html
 - https://flutter.dev/docs/cookbook/navigation/navigation-basics <br />
 <h6>lesson 13 Routes and navigates + new screen</h6>
 -
+<h6>lesson 14 Functionality</h6>
+-
